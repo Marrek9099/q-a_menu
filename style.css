@@ -1,0 +1,83 @@
+body {
+    background: rgba(234, 238, 245, 0.849);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+.container  {
+    margin: 10px auto;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container div {
+    margin-top: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(199, 171, 118);
+    margin: 100px 0 60px 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.questions {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+   
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px 20px 20px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+}
+
+i {
+    font-size: 1.5rem;
+    color: rgb(199, 171, 118);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+i:hover {
+    transform: rotate(90deg);
+}
+
+
+.answer {
+    display: none;
+}
+
+.container .answer {
+    color: rgb(94, 106, 139);
+    margin-top: -20px;
+    padding: 5px 20px 30px 20px;
+}
+
+hr {
+    border: none;
+    margin-bottom: 15px;
+    height: 0.7px; 
+    background-color: rgb(94, 106, 139);; 
+}
+
+.makeVisible {
+    display: block;
+}
+
+@media screen and (max-width: 800px){
+    .questions {
+        width: 95%;
+    }
+}
+    
